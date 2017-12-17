@@ -1,9 +1,12 @@
-.image-thumb>img {
+.image-thumb img {
     max-height: 300px;
+    border: 0;
 }
 
-li {
+.image-thumb {
+    max-height: 300px;
     list-style-type: none;
     float: left;
 }
+
     
