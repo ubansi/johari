@@ -1,4 +1,8 @@
 {
     "test": "test is done",
-    "read_dir": "node_modules"
+    "read_dir": "node_modules",
+
+    "img_exts":[
+        "jpg","jpeg","png","gif"
+    ]
 }
