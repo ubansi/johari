@@ -24,7 +24,7 @@
 .dir-thumb p {
     position: absolute;
     color: white;
-    top: 0;
+    bottom: 0;
     left: 0;
     margin: 5px;
     background-color: black;
