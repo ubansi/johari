@@ -9,4 +9,26 @@
     float: left;
 }
 
-    
+.dir-thumb {
+    position: relative;
+    max-height: 300px;
+    list-style-type: none;
+    float: left;
+}
+
+.dir-thumb img {
+    max-height: 300px;
+    border: 0;
+}
+
+.dir-thumb p {
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    background-color: black;
+    opacity: 0.6;
+    padding: 3px;
+    border-radius: 5px;
+}
