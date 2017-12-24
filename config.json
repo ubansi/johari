@@ -1,6 +1,6 @@
 {
     "test": "test is done",
-    "read_dir": "D:\\download",
+    "read_dir": "D:/download",
 
     "img_exts":[
         "jpg","jpeg","png","gif"
