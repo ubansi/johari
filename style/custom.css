@@ -16,9 +16,16 @@
     float: left;
 }
 
-.dir-thumb img {
+.dir-thumb-img {
     max-height: 300px;
     border: 0;
+    width: 192px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dir-thumb .icon{
+    height: 1em;
+    width: 1em;
 }
 
 .dir-thumb p {
