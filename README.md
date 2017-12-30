@@ -32,6 +32,10 @@ A image viewer by Electron.
 
 `$ electron .`
 
+windows向けリリースコマンド例
+
+`electron-packager . johari --platform=win32 --arch=x64 --icon=icon.ico --version=1.2.6`
+
 ## Install
 `$ npm install`
 
