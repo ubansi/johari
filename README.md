@@ -39,6 +39,9 @@ windows向けリリースコマンド例
 ## Install
 `$ npm install`
 
+## Lint
+`$ npn run lint`
+
 ## Contribution
 歓迎します。
 日本語で書いてると早いかもしれないです。
