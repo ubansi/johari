@@ -12,7 +12,7 @@ app.on('window-all-closed', function () {
 });
 
 app.on('ready', function () {
-  const { width, height } = electron.screen.getPrimaryDisplay().workAreaSize
+  const { width, height } = electron.screen.getPrimaryDisplay().workAreaSize;
   // ブラウザ(Chromium)の起動, 初期画面のロード
   mainWindow = new BrowserWindow({
     left: 0,
