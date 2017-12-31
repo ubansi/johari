@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint main.js lib"
+    "lint": "eslint main.js lib",
+    "start": "electron ."
   },
   "author": "ubansi",
   "license": "ISC",
