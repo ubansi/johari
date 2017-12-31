@@ -30,7 +30,9 @@ A image viewer by Electron.
 ## Usage
 現在は開発者向けバージョンのみとなっています。
 
-`$ electron .`
+起動
+
+`$ npm run start`
 
 windows向けリリースコマンド例
 
@@ -38,6 +40,9 @@ windows向けリリースコマンド例
 
 ## Install
 `$ npm install`
+
+## Lint
+`$ npn run lint`
 
 ## Contribution
 歓迎します。
