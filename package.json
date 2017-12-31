@@ -1,7 +1,7 @@
 {
   "name": "johari",
   "version": "1.0.0",
-  "description": "Electron image viewer",
+  "description": "A image viewer by Electron.",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
     "start": "electron ."
   },
   "author": "ubansi",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "electron-packager": "^10.1.0",
     "electron-prebuilt": "^1.4.13",
