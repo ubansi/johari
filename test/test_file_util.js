@@ -13,15 +13,19 @@ describe('file util test', () => {
       assert(fileUtil.isDirectory('./test/test_file_util.js') === false, 'test not dir');
     });
 
-    it('directory null test', () => {
+    it('null test', () => {
       assert(fileUtil.isDirectory(null) === false, 'null arg test');
+    });
+
+    it('void test', () => {
+      assert(fileUtil.isDirectory() === false, 'null arg test');
     });
   });
 
   describe('path2File test', () => {
     const testPath1 = 'aaa/bbb/ccc';
     const testPath2 = 'aaa/bbb/ccc/';
-    
+
     it(testPath1 + ' test', () => {
       assert.equal(fileUtil.path2File(testPath1), 'ccc', 'normal path');
     });
