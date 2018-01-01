@@ -31,7 +31,7 @@ describe('file util test', () => {
     });
 
     it(testPath2 + ' test', () => {
-      assert.equal(fileUtil.path2File(testPath2 + '/'), null, 'normal path');
+      assert.equal(fileUtil.path2File(testPath2), null, 'normal path');
     });
 
     it('null path test', () => {
@@ -40,6 +40,27 @@ describe('file util test', () => {
 
     it('void path test', () => {
       assert.equal(fileUtil.path2File(''), null, 'normal path');
+    });
+  });
+
+  describe('directory test', () => {
+    const testPath1 = 'aaa/bbb/ccc';
+    const testPath2 = 'aaa/bbb/ccc/';
+
+    it(testPath1 + ' test', () => {
+      assert.equal(fileUtil.directory(testPath1), 'aaa/bbb/', 'normal path');
+    });
+
+    it(testPath2 + ' test', () => {
+      assert.equal(fileUtil.directory(testPath2), testPath2, 'normal path');
+    });
+
+    it('null path test', () => {
+      assert.equal(fileUtil.directory(null), null, 'normal path');
+    });
+
+    it('void path test', () => {
+      assert.equal(fileUtil.directory(''), null, 'normal path');
     });
   });
 });
