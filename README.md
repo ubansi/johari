@@ -42,17 +42,20 @@ windows向けリリースコマンド例
 `$ npm install`
 
 ## Lint
-`$ npn run lint`
+`$ npm run lint`
+
+## Test
+`$ npm run test`
 
 ## Contribution
 歓迎します。
 日本語で書いてると早いかもしれないです。
 
-1. フォーク
-2. フューチャーブランチで作業
-3. コミット
-4. テスト
-5. プルリクエストを作成
+1. Fork
+2. Feature Branchで作業
+3. Lint and Test
+4. Commit
+5. Pull Requestを作成
 
 ## Licence
 
