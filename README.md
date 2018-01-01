@@ -32,11 +32,11 @@ A image viewer by Electron.
 
 起動
 
-`$ npm run start`
+`$ npm start`
 
 windows向けリリースコマンド例
 
-`electron-packager . johari --platform=win32 --arch=x64 --icon=icon.ico --version=1.2.6`
+`$ electron-packager . johari --platform=win32 --arch=x64 --icon=icon.ico --version=1.4.13`
 
 ## Install
 `$ npm install`
@@ -45,7 +45,7 @@ windows向けリリースコマンド例
 `$ npm run lint`
 
 ## Test
-`$ npm run test`
+`$ npm test`
 
 ## Contribution
 歓迎します。
