@@ -8,6 +8,10 @@
     "lint": "eslint main.js lib",
     "start": "electron ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ubansi/johari.git"
+  },
   "author": "ubansi",
   "license": "MIT",
   "devDependencies": {
