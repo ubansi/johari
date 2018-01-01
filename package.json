@@ -4,16 +4,22 @@
   "description": "A image viewer by Electron.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "lint": "eslint main.js lib",
     "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ubansi/johari.git"
   },
   "author": "ubansi",
   "license": "MIT",
   "devDependencies": {
+    "chai": "^4.1.2",
     "electron-packager": "^10.1.0",
     "electron-prebuilt": "^1.4.13",
-    "eslint": "^4.14.0"
+    "eslint": "^4.14.0",
+    "mocha": "^4.1.0"
   },
   "dependencies": {
     "jquery": "^3.2.1"
