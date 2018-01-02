@@ -1,12 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Johari</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
     <link rel="stylesheet" href="style/custom.css">
 </head>
+
 <body>
-    <ul id="img-list"></ul>
+    <div class="content">
+        <nav class="navbar" role="navigation" aria-label="dropdown navigation">
+            <div class="navbar-brand">
+                <div class="navbar-item has-dropdown menu" id="menu-dropdown">
+                    <a class="navbar-link">
+                        Menu
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item">
+                            Add Directory
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-item">
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Search</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <p class="control">
+                                    <input class="input" type="text" placeholder="name, tag">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <ul id="img-list"></ul>
+    </div>
 </body>
 <script src="lib/app.js"></script>
+
 </html>
