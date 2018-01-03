@@ -12,8 +12,7 @@ body {
 img {
     height: 100%;
     object-fit: contain;
-    /* -webkit-app-region: drag; */
-    /* -webkit-app-region: no-drag; */
+    -webkit-app-region: drag;
 }
 
 #menu-area {
@@ -21,6 +20,7 @@ img {
     z-index: 1;
     top: 0;
     padding: 20px;
+
 }
 
 #image-area {
