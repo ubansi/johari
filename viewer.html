@@ -3,29 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
     <title>Viewer</title>
-    <style>
-        html {
-            height: 100%;
-            overflow: hidden;
-        }
-
-        body, div {
-            margin: 0;
-            overflow: hidden;
-            height: 100%;
-        }
-
-        img {
-            height: 100%;
-            object-fit: contain;
-        }
-    </style>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="style/viewer.css">
 </head>
 
-<body style="-webkit-app-region: drag">
-    <div class="image-area"></div>
+<body>
+    <div id="menu-area" class="is-invisible">
+        <div class="columns is-mobile">
+            <div class="column">
+                <div class="field is-grouped is-grouped-multiline" id="tag-area">
+                    <div class="control">
+                        <div class="tags has-addons">
+                            <a class="tag is-link">Tag1</a>
+                            <a class="tag is-delete"></a>
+                        </div>
+                    </div>
+
+                    <div class="control">
+                        <div class="tags has-addons">
+                            <a class="tag is-link">Tag2</a>
+                            <a class="tag is-delete"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="field has-addons" id="add-tag-area">
+                    <div class="control">
+                        <input class="input" type="text" placeholder="new tag">
+                    </div>
+                    <div class="control">
+                        <a class="button is-info">
+                            Add
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="columns is-mobile">
+            <div class="column is-three-quarters">
+                <div class="buttons has-addons" id="like-area">
+                    <span class="button is-primary">Like</span>
+                    <span class="button">1</span>
+                    <span class="button">2</span>
+                    <span class="button">3</span>
+                    <span class="button">4</span>
+                    <span class="button">5</span>
+                </div>
+            </div>
+            <div class="column">
+                <div class="buttons" id="secret-button-area">
+                    <span class="button">Secret</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="image-area"></div>
     <script src="lib/viewer.js"></script>
 </body>
 
