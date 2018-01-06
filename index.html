@@ -17,7 +17,7 @@
                         Menu
                     </a>
                     <div class="navbar-dropdown">
-                        <a class="navbar-item">
+                        <a class="navbar-item" id="add-directory">
                             Add Directory
                         </a>
                     </div>
@@ -40,6 +40,25 @@
         </nav>
 
         <ul id="img-list"></ul>
+
+        <div class="modal" id="add-directory-modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="field is-horizontal">
+                    <div class="field-label is-normal">
+                        <label class="label">Image Directory</label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                            <p class="control">
+                                <input class="input" type="email" placeholder="full path">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close" id="add-directory-close"></button>
+        </div>
     </div>
     <script src="lib/app.js"></script>
 </body>
