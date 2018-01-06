@@ -1,12 +1,77 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Johari</title>
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
     <link rel="stylesheet" href="style/custom.css">
 </head>
+
 <body>
-    <ul id="img-list"></ul>
+    <div class="content">
+        <nav class="navbar" role="navigation" aria-label="dropdown navigation">
+            <div class="navbar-brand">
+                <div class="navbar-item has-dropdown menu" id="menu-dropdown">
+                    <a class="navbar-link">
+                        Menu
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" id="open-add-directory">
+                            Add Directory
+                        </a>
+                    </div>
+                </div>
+                <div class="navbar-item">
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label">Search</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <p class="control">
+                                    <input class="input" type="text" placeholder="name, tag" id="search-input">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <ul id="img-list"></ul>
+
+        <div class="modal" id="add-directory-modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <div class="box">
+                    <div class="field is-horizontal">
+                        <div class="field-label">
+                            <label class="label">Image Directory</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field is-grouped">
+                                <div class="control is-expanded">
+                                    <input class="input" type="email" placeholder="ex. C:/download/" id="directory-path">
+                                </div>
+                                <div class="control">
+                                    <a class="button is-info" id="add-directory">
+                                        Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content" id="add-directory-result">
+
+                    </div>
+                </div>
+            </div>
+            <button class="modal-close is-large" aria-label="close" id="add-directory-close"></button>
+        </div>
+    </div>
+    <script src="lib/app.js"></script>
 </body>
-<script src="lib/app.js"></script>
+
+
 </html>

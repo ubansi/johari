@@ -1,6 +1,6 @@
 {
   "name": "johari",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A image viewer by Electron.",
   "main": "main.js",
   "scripts": {
@@ -22,6 +22,8 @@
     "mocha": "^4.1.0"
   },
   "dependencies": {
-    "jquery": "^3.2.1"
+    "bulma": "^0.6.1",
+    "jquery": "^3.2.1",
+    "nedb": "^1.8.0"
   }
 }
