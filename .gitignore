@@ -62,4 +62,5 @@ typings/
 
 
 # End of https://www.gitignore.io/api/node
-db/
+db/*
+!.gitkeep
