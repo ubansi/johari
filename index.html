@@ -23,15 +23,31 @@
                     </div>
                 </div>
                 <div class="navbar-item">
-                    <div class="field is-horizontal">
-                        <div class="field-label is-normal">
-                            <label class="label">Search</label>
-                        </div>
-                        <div class="field-body">
+                    <div class="field-label is-normal">
+                        <label class="label">Search</label>
+                    </div>
+                    <div class="dropdown" id="search-dropdown">
+                        <div class="dropdown-trigger">
                             <div class="field">
                                 <p class="control">
                                     <input class="input" type="text" placeholder="name, tag" id="search-input">
                                 </p>
+                            </div>
+                        </div>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-content">
+                                <a class="dropdown-item">
+                                    Tag
+                                </a>
+                                <a class="dropdown-item">
+                                    Other Tag
+                                </a>
+                                <a class="dropdown-item is-active">
+                                    Active Tag
+                                </a>
+                                <a class="dropdown-item">
+                                    Other Tag
+                                </a>
                             </div>
                         </div>
                     </div>
