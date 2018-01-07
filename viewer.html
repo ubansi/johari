@@ -15,14 +15,23 @@
                 <div class="field is-grouped is-grouped-multiline" id="tag-area"></div>
             </div>
             <div class="column">
-                <div class="field has-addons" id="add-tag-area">
-                    <div class="control">
-                        <input class="input" type="text" placeholder="new tag" id="tag-input">
+                <div class="dropdown" id="tag-dropdown">
+                    <div class="dropdown-trigger">
+                        <div class="field has-addons" id="add-tag-area">
+                            <div class="control">
+                                <input class="input" type="text" placeholder="new tag" id="tag-input">
+                            </div>
+                            <div class="control">
+                                <a class="button is-info" id="tag-add-button">
+                                    Add
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="control">
-                        <a class="button is-info" id="tag-add-button">
-                            Add
-                        </a>
+                    <div class="dropdown-menu">
+                        <div class="dropdown-content" id="tag-list">
+                            <a class="dropdown-item">Tag</a>
+                        </div>
                     </div>
                 </div>
             </div>
