@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "bulma": "^0.6.1",
+    "jimp": "^0.2.28",
     "jquery": "^3.2.1",
     "nedb": "^1.8.0"
   }
