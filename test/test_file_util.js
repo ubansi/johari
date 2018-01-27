@@ -1,6 +1,6 @@
 const assert = require('chai').assert;
 
-const fileUtil = require('../lib/modules/fileUtil');
+const fileUtil = require('../lib/modules/file_util');
 
 describe('file util test', () => {
 
