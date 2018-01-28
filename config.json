@@ -3,6 +3,6 @@
     "read_dir": "D:/download",
 
     "img_exts":[
-        "jpg","jpeg","png","gif"
+        "jpg","jpeg","png","gif","JPG"
     ]
 }
